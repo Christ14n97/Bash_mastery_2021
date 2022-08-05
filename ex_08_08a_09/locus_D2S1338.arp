@@ -1,0 +1,66 @@
+[Profile]
+
+Title="All samples at Gibraltar for locus D2S1338"
+NbSamples=3
+DataType=FREQUENCY
+GenotypicData=0
+Frequency=REL
+
+
+[Data]
+
+
+[[Samples]]
+
+SampleName="Spain_Extremadura_ID194"
+SampleSize=240
+#Reference: Garcia-Hirschfeld et al. (2003) International Congress Series 1239:165-169
+#Region: Extremadura
+#Country: Spain
+SampleData={
+	15	0.0083
+	16	0.0375
+	17	0.2625
+	18	0.075
+	19	0.1208
+	20	0.1208
+	21	0.025
+	22.2	0.0458
+	23	0.0958
+	24	0.1042
+	25	0.0958
+	26	0.0083
+}
+
+SampleName="Spain_Madrid_ID195"
+SampleSize=674
+#Reference: Camacho et al. (2007) Forensic Sci Int 173:241-245
+#Region: Madrid
+#Country: Spain
+SampleData={
+	12	0.002
+	14	0.002
+	16	0.05
+	17	0.276
+	18	0.056
+	19	0.119
+	20	0.16
+	21	0.033
+	22	0.019
+	23	0.104
+	24	0.09
+	25	0.083
+	26	0.006
+}
+
+SampleName='Huelva-Spain'
+SampleSize=114
+SampleData={
+20	0.149
+21	0.031
+22	0.035
+23	0.110
+24	0.083
+25	0.057
+26	0.009
+}

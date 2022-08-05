@@ -1,0 +1,13 @@
+
+
+#Obtainin the structure file
+awk -f MakeStructure.awk locus_CSF1PO.arp > str_tmp
+
+#Merging the original .arp file followed by the structure
+cat locus_CSF1PO.arp str_tmp > locus_CSF1PO_struct.arp
+
+#Running arlecore with the amova arguments
+arlecore locus_CSF1PO_struct.arp AmovaSettings.ars
+
+Removing tmp file
+rm str_tmp

@@ -1,0 +1,153 @@
+[Profile]
+
+Title="Populations for locus D19S433"
+NbSamples=8
+DataType=FREQUENCY
+GenotypicData=0
+Frequency=REL
+
+
+[Data]
+
+[[Samples]]
+
+
+SampleName="Huelva-Spain"
+SampleSize=228
+SampleData={
+12 0.079
+13 0.316
+13.2 0.026
+14 0.355
+14.2 0.018
+15 0.149
+15.2 0.026
+16 0.022
+16.2 0.004
+17 0.004
+}
+
+
+SampleName="Egyptian_Berbers_from_Siwa"
+SampleSize=98
+SampleData={
+	11	0.082
+	12	0.148
+	12.2	0.005
+	13	0.122
+	13.2	0.148
+	14	0.276
+	14.2	0.015
+	15	0.122
+	15.2	0.031
+	16	0.020
+	16.2	0.031
+}
+
+SampleName="Egyptian_Copts_from_Adaima"
+SampleSize=100
+SampleData={
+	11	0.020
+	12	0.100
+	13	0.235
+	13.2	0.030
+	14	0.310
+	14.2	0.050
+	15	0.115
+	15.2	0.050
+	16	0.060
+	16.2	0.020
+	17	0.010
+}
+
+SampleName="Egyptian_Muslims_from_Adaima"
+SampleSize=99
+SampleData={
+	9	0.005
+	11	0.045
+	12	0.096
+	13	0.247
+	13.2	0.045
+	14	0.197
+	14.2	0.076
+	15	0.101
+	15.2	0.066
+	16	0.081
+	16.2	0.035
+	17.2	0.005
+}
+
+SampleName="Moroccan_Berbers_from_Asni"
+SampleSize=105
+SampleData={
+	10	0.005
+	11	0.019
+	12	0.176
+	13	0.290
+	13.2	0.033
+	14	0.200
+	14.2	0.062
+	15	0.081
+	15.2	0.029
+	16	0.033
+	16.2	0.048
+	17	0.024
+}
+
+SampleName="Moroccan_Berbers_from_Bouhria"
+SampleSize=104
+SampleData={
+	11	0.010
+	12	0.144
+	12.2	0.005
+	13	0.264
+	13.2	0.029
+	14	0.308
+	14.2	0.130
+	15	0.038
+	15.2	0.029
+	16	0.019
+	16.2	0.014
+	17	0.005
+	17.2	0.005
+}
+
+SampleName="Spain_Extremadura_ID194"
+SampleSize=242
+#Reference: Garcia-Hirschfeld et al. (2003) International Congress Series 1239:165-169
+#Region: Extremadura
+#Country: Spain
+SampleData={
+	12	0.1074
+	12.2	0.0041
+	13	0.2975
+	13.2	0.0083
+	14	0.3223
+	14.2	0.0248
+	15	0.1198
+	15.2	0.0537
+	16	0.0372
+	16.2	0.0207
+	17	0.0041
+}
+
+SampleName="Spain_Madrid_ID195"
+SampleSize=684
+#Reference: Camacho et al. (2007) Forensic Sci Int 173:241-245
+#Region: Madrid
+#Country: Spain
+SampleData={
+	11	0.006
+	12	0.105
+	13	0.24
+	13.2	0.007
+	14	0.338
+	14.2	0.023
+	15	0.173
+	15.2	0.047
+	16	0.042
+	16.2	0.012
+	17	0.004
+	17.2	0.003
+}
+

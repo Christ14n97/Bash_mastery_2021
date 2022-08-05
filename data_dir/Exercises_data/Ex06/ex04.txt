@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#Mathias Currat and Jose Manuel Nunes - Computer skills for biological research 2021
+#script for ex04 of day 2
+#Assume that the files 1/table.data 2/FstSettings.ars 3/dataset_D3S1358.arp are in the working folder
+#--------------------------
+
+cat table.data | tr -s " "  > table.data.aux
+mv table.data.aux table.data
+
+cut -d" " -f1,2 table.data > all_alleles.data
+
+grep -v – all_alleles.data > significant_alleles_locus_D3S1358.data
+
+echo "SampleName=\"Huelva-Spain\"" > new_sample.txt
+echo "SampleSize=228" >> new_sample.txt
+echo "SampleData={" >> new_sample.txt
+tail -n +2 significant_alleles_locus_D3S1358.data >> new_sample.txt
+echo "}" >> new_sample.txt
+
+cat dataset_D3S1358.arp | sed s/NbSamples=20/NbSamples=21/ > locus_D3S1358.arp
+cat new_sample.txt >> locus_D3S1358.arp
+
+arlecore locus_D3S1358.arp FstSettings.ars
+
+rm all_alleles.data
+rm significant_alleles_locus_D3S1358.data
+rm new_sample.txt
+rm arlequin.ini
+rm arl_run.ars
+rm arl_run.txt
+rm randseed.txt

@@ -1,0 +1,9 @@
+
+#To connect to the server
+ssh -p 91 peralta@biant-lsrv05.unige.ch
+
+#I do this on a directory from my computer
+scp -P 91 ex_15/launch_amova_improved.sh peralta@biant-lsrv05.unige.ch:ex_15_cluster/.
+
+#This to copy all *.xml files from the ex_15_cluster to my current WD
+scp -P 91 peralta@biant-lsrv05.unige.ch:ex_15_cluster/*.xml $PWD

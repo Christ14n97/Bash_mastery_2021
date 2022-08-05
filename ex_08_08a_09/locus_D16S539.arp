@@ -1,0 +1,162 @@
+[Profile]
+
+Title="All samples at Gibraltar for locus D16S539"
+NbSamples=10
+DataType=FREQUENCY
+GenotypicData=0
+Frequency=REL
+
+
+[Data]
+
+
+[[Samples]]
+
+SampleName="Morocco_Casablanca_Arab_ID412"
+SampleSize=256
+#Reference: Abdin et al. (2003) Leg Med (Tokyo) 5:S150-S155
+#Region: Casablanca
+#Country: Morocco
+SampleData={
+	10	0.051
+	11	0.285
+	12	0.313
+	13	0.168
+	14	0.047
+	8	0.039
+	9	0.098
+}
+
+SampleName="Spain_Barcelona_ID189"
+SampleSize=408
+#Reference: Paredes et al. (2003) Forensic Sci Int 135:75-78
+#Region: Barcelona
+#Country: Spain
+SampleData={
+	10	0.0588
+	11	0.3113
+	12	0.2819
+	13	0.1936
+	14	0.0319
+	8	0.0221
+	9	0.1005
+}
+
+SampleName="Spain_Biscay_ID190"
+SampleSize=146
+#Reference: Perez-Miranda et al. (2005) Forensic Sci Int 152:259-262
+#Region: Biscay
+#Country: Spain
+SampleData={
+	10	0.0137
+	11	0.3151
+	12	0.3082
+	13	0.1849
+	14	0.0548
+	8	0.0069
+	9	0.1164
+}
+
+SampleName="Spain_Seville_ID192"
+SampleSize=396
+#Reference: Sanz et al. (2001) Forensic Sci Int 119:113-115
+#Region: Seville
+#Country: Spain
+SampleData={
+	10	0.0455
+	11	0.2955
+	12	0.3081
+	13	0.1843
+	14	0.0303
+	15	0.0025
+	8	0.0227
+	9	0.1111
+}
+
+SampleName="Spain_Bilbao_ID193"
+SampleSize=412
+#Reference: Garcia et al. (2003) International Congress Series 1239:193-196
+#Region: Bilbao
+#Country: Spain
+SampleData={
+	10	0.0266
+	11	0.3033
+	12	0.3215
+	13	0.1596
+	14	0.0266
+	8	0.0266
+	9	0.1358
+}
+
+SampleName="Spain_Extremadura_ID194"
+SampleSize=268
+#Reference: Garcia-Hirschfeld et al. (2003) International Congress Series 1239:165-169
+#Region: Extremadura
+#Country: Spain
+SampleData={
+	10	0.0634
+	11	0.3097
+	12	0.2948
+	13	0.1567
+	14	0.0075
+	15	0.0037
+	8	0.0224
+	9	0.1418
+}
+
+SampleName="Spain_Madrid_ID195"
+SampleSize=674
+#Reference: Camacho et al. (2007) Forensic Sci Int 173:241-245
+#Region: Madrid
+#Country: Spain
+SampleData={
+	10	0.025
+	11	0.266
+	12	0.325
+	13	0.218
+	14	0.039
+	8	0.022
+	9	0.105
+}
+
+SampleName="Spain_Seville_ID424"
+SampleSize=84
+#Reference: Pérez-Miranda et al. (2005) Leg Med (Tokyo) 7:201-203
+#Region: Seville
+#Country: Spain
+SampleData={
+	10	0.0357
+	11	0.2262
+	12	0.381
+	13	0.1429
+	14	0.0952
+	8	0.0357
+	9	0.0833
+}
+
+SampleName="Spain_Alava_ID425"
+SampleSize=202
+#Reference: Pérez-Miranda et al. (2005) Leg Med (Tokyo) 7:58-61
+#Region: Alava
+#Country: Spain
+SampleData={
+	10	0.0297
+	11	0.2228
+	12	0.3861
+	13	0.2178
+	14	0.0842
+	15	0.0099
+	8	0.0149
+	9	0.0347
+}
+SampleName='Huelva-Spain'
+SampleSize=114
+SampleData={
+9	0.105
+10	0.053
+11	0.329
+12	0.303
+13	0.158
+14	0.031
+15	0.004
+}

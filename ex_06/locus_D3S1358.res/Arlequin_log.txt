@@ -1,0 +1,85 @@
+Log file path: locus_D3S1358.res/Arlequin_log.txt
+Core Program Directory: /home/christian97/Documents/msc_biochemistry/csbr_course/ex_06/
+Random number generator initialized with lidum=-333556
+Reading project profile section...
+done !
+Opening next project...
+locus_D3S1358.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (24/08/21 at 15:53:42)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Reading Samples section ...
+	Reading Algeria_Ghardaia_Berber_ID32 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Arab_ID30 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Agadir_Berber_ID34 ... 
+   1 #[WARNING # 1] from function "Population::New_read_gametic_data() sum of Relative frequencies=1.001000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Berber_ID35 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Arab_ID412 ... 
+	done ! (0 ms)
+
+	Reading Spain_Murcia_ID185 ... 
+	done ! (0 ms)
+
+	Reading Spain_Palma_ID186 ... 
+	done ! (0 ms)
+
+	Reading Spain_Mao_ID187 ... 
+	done ! (0 ms)
+
+	Reading Spain_Valencia_ID188 ... 
+	done ! (0 ms)
+
+	Reading Spain_Barcelona_ID189 ... 
+	done ! (0 ms)
+
+	Reading Spain_Biscay_ID190 ... 
+	done ! (0 ms)
+
+	Reading Spain_Cantabria_ID191 ... 
+	done ! (0 ms)
+
+	Reading Spain_Seville_ID192 ... 
+	done ! (0 ms)
+
+	Reading Spain_Bilbao_ID193 ... 
+	done ! (0 ms)
+
+	Reading Spain_Extremadura_ID194 ... 
+	done ! (0 ms)
+
+	Reading Spain_Madrid_ID195 ... 
+	done ! (0 ms)
+
+	Reading Spain_Tenerife_ID197 ... 
+	done ! (0 ms)
+
+	Reading Spain_Palma_ID202 ... 
+   2 #[WARNING # 2] from function "Population::New_read_gametic_data() sum of Relative frequencies=0.999000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	Reading Spain_Palma_Jew_ID203 ... 
+	done ! (0 ms)
+
+	Reading Spain_Seville_ID424 ... 
+	done ! (0 ms)
+
+	Reading Huelva-Spain ... 
+	Missing closing brace for sample "Huelva-Spain", aborting reading procedure
+   3 #[ERROR # 1] from function "Population::New_read_gametic_data()" : missing closing brace in Sampledata definition
+   4 #[ERROR # 2] from function "Samples::NewRead()" : unable to read sample data
+	Problems in reading Samples section... aborting reading  project file.
+
+Error opening project... locus_D3S1358.res/locus_D3S1358.arp
+Error during run of locus_D3S1358.arp

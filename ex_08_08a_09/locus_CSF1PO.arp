@@ -1,0 +1,220 @@
+[Profile]
+
+Title="All samples at Gibraltar for locus CSF1PO"
+NbSamples=14
+DataType=FREQUENCY
+GenotypicData=0
+Frequency=REL
+
+
+[Data]
+
+
+[[Samples]]
+
+SampleName="Algeria_Ghardaia_Berber_ID32"
+SampleSize=88
+#Reference: Bosch et al. (2001) Forensic Sci Int 116:41-51
+#Region: Ghardaia
+#Country: Algeria
+SampleData={
+	10	0.227
+	11	0.364
+	12	0.284
+	13	0.034
+	14	0.023
+	8	0.068
+}
+
+SampleName="Morocco_Casablanca_Arab_ID30"
+SampleSize=108
+#Reference: Bosch et al. (2001) Forensic Sci Int 116:41-51
+#Region: Casablanca
+#Country: Morocco
+SampleData={
+	10	0.306
+	11	0.324
+	12	0.287
+	13	0.056
+	7	0.009
+	8	0.019
+}
+
+SampleName="Morocco_Agadir_Berber_ID34"
+SampleSize=94
+#Reference: Bosch et al. (2001) Forensic Sci Int 116:41-51
+#Region: Agadir
+#Country: Morocco
+SampleData={
+	10	0.34
+	11	0.266
+	12	0.298
+	13	0.043
+	14	0.011
+	7	0.021
+	9	0.021
+}
+
+SampleName="Morocco_Casablanca_Berber_ID35"
+SampleSize=84
+#Reference: Bosch et al. (2001) Forensic Sci Int 116:41-51
+#Region: Casablanca
+#Country: Morocco
+SampleData={
+	10	0.345
+	11	0.321
+	12	0.238
+	13	0.048
+	8	0.024
+	9	0.024
+}
+
+SampleName="Morocco_Casablanca_Arab_ID412"
+SampleSize=254
+#Reference: Abdin et al. (2003) Leg Med (Tokyo) 5:S150-S155
+#Region: Casablanca
+#Country: Morocco
+SampleData={
+	10	0.276
+	11	0.311
+	12	0.339
+	13	0.024
+	14	0.004
+	8	0.028
+	9	0.02
+}
+
+SampleName="Spain_Barcelona_ID189"
+SampleSize=408
+#Reference: Paredes et al. (2003) Forensic Sci Int 135:75-78
+#Region: Barcelona
+#Country: Spain
+SampleData={
+	10	0.3088
+	11	0.3088
+	12	0.2843
+	13	0.0686
+	14	0.0049
+	15	0.0025
+	9	0.0221
+}
+
+SampleName="Spain_Biscay_ID190"
+SampleSize=146
+#Reference: Perez-Miranda et al. (2005) Forensic Sci Int 152:259-262
+#Region: Biscay
+#Country: Spain
+SampleData={
+	10	0.2534
+	11	0.3151
+	12	0.3219
+	13	0.0959
+	15	0.0069
+	9	0.0069
+}
+
+SampleName="Spain_Seville_ID192"
+SampleSize=396
+#Reference: Sanz et al. (2001) Forensic Sci Int 119:113-115
+#Region: Seville
+#Country: Spain
+SampleData={
+	10	0.2828
+	10.3	0.0025
+	11	0.3333
+	12	0.2929
+	13	0.048
+	14	0.0101
+	15	0.0025
+	8	0.0101
+	9	0.0177
+}
+
+SampleName="Spain_Bilbao_ID193"
+SampleSize=482
+#Reference: Garcia et al. (2003) International Congress Series 1239:193-196
+#Region: Bilbao
+#Country: Spain
+SampleData={
+	10	0.2759
+	11	0.3091
+	12	0.3195
+	13	0.0622
+	14	0.0062
+	15	0.0062
+	6	0.0021
+	7	0.0021
+	8	0.0041
+	9	0.0124
+}
+
+SampleName="Spain_Extremadura_ID194"
+SampleSize=220
+#Reference: Garcia-Hirschfeld et al. (2003) International Congress Series 1239:165-169
+#Region: Extremadura
+#Country: Spain
+SampleData={
+	10	0.2773
+	11	0.3455
+	12	0.2955
+	13	0.0545
+	14	0.0045
+	15	0.0045
+	7	0.0045
+	9	0.0136
+}
+
+SampleName="Spain_Madrid_ID195"
+SampleSize=672
+#Reference: Camacho et al. (2007) Forensic Sci Int 173:241-245
+#Region: Madrid
+#Country: Spain
+SampleData={
+	10	0.256
+	11	0.33
+	12	0.326
+	13	0.061
+	14	0.009
+	6	0.002
+	8	0.003
+	9	0.013
+}
+
+SampleName="Spain_Seville_ID424"
+SampleSize=84
+#Reference: Pérez-Miranda et al. (2005) Leg Med (Tokyo) 7:201-203
+#Region: Seville
+#Country: Spain
+SampleData={
+	10	0.1429
+	11	0.2381
+	12	0.3452
+	13	0.2262
+	14	0.0357
+	15	0.0119
+}
+
+SampleName="Spain_Alava_ID425"
+SampleSize=202
+#Reference: Pérez-Miranda et al. (2005) Leg Med (Tokyo) 7:58-61
+#Region: Alava
+#Country: Spain
+SampleData={
+	10	0.2624
+	11	0.3218
+	12	0.2822
+	13	0.1139
+	14	0.005
+	15	0.0149
+}
+SampleName='Huelva-Spain'
+SampleSize=114
+SampleData={
+8	0.009
+9	0.022
+10	0.338
+11	0.276
+12	0.276
+13	0.057
+14	0.022
+}

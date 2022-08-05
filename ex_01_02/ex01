@@ -1,0 +1,18 @@
+#To select just the first part of the table
+pdftotext -f 2 -l 2 -layout Coudray_et_al_ForSciInt_07.pdf table_1
+
+#To save the trim the first part of the table
+tail -n 35 table_1 > table_1_final
+
+#To obtain the continuation of table 1
+pdftotext -f 3 -l 3 -layout Coudray_et_al_ForSciInt_07.pdf table_2
+
+#to get rid of the first and final rows
+head -n 9 table_2 | tail -n 6 > table_2_final
+
+#To merge and obtain one DB
+cat table_1_final table_2_final > table.data
+
+#Remove tmp files
+rm table_1
+rm table_2

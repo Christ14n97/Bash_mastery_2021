@@ -1,0 +1,14 @@
+#To convert from pdf, obtaining the first part of the table and then get rid of the first rows
+pdftotext -f 2 -l 3 -layout Coudray_et_al_ForSciInt_07.pdf table_1
+
+#Retaining the first part
+head -n 45 table_1 | tail -n 35 > table.data
+
+#Retaining the second part
+head -n 54 table_1 | tail -n 6 >> table.data
+
+#to chande the delimiters of the table (not done here)
+cat table.data |tr -s ' ' '\t'
+
+#Remove tmp files
+rm table_1

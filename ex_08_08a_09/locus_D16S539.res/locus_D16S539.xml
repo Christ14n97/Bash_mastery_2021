@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="file:////home/christian97/Documents/msc_biochemistry/csbr_course/ex_08/ArlequinStyleSheet.xsl"?>
+<!--Arlequin results file-->
+
+<Arlequin>
+
+<data>
+
+
+</data>
+
+<header>
+Arlequin results
+</header>
+<data>
+
+</data>
+
+ <A NAME="25_08_21at23_18_50"></A> 
+<data>
+
+</data> <run time="25/08/21 at 23:18:50">
+
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (25/08/21 at 23:18:50)
+////////////////////////////////////////////////////////////////////
+
+</run> <data>
+ #[WARNING # 1] : Sum of elements should be equal to 1
+ #[WARNING # 2] : Sum of elements should be equal to 1
+</data>
+
+ <A NAME="25_08_21at23_18_50_run_information"></A> 
+<data>
+
+
+Project information:
+--------------------
+	NbSamples      =  10
+	DataType       =  FREQUENCY
+	GenotypicData  =  0
+
+</data> <title time="25/08/21 at 23:18:50">
+
+==============================
+Settings used for Calculations
+==============================
+
+</title> <data>
+
+ General settings:
+ -----------------
+        Deletion Weight                = 1
+        Transition Weight Weight       = 1
+        Tranversion Weight Weight      = 1
+        Epsilon Value                  = 1e-07
+        Significant digits for output  = 5
+        Use original haplotype definition
+        Alllowed level of missing data = 0.05
+
+ Active Tasks:
+ -------------
+
+    Population pairwise Fst values:
+    -------------------------------
+        Compute coancestry coefficients
+        No. of permutations for significance = 10
+        No. of permutations for Mantel test  = 1000
+
+       Distance matrix:
+            Compute F-statistics on haplotype frequencies only
+
+</data>
+
+ <A NAME="25_08_21at23_18_50_pop_gen_struct"></A> 
+<data>
+
+===============================================================================
+== GENETIC STRUCTURE ANALYSIS
+===============================================================================
+
+</data>
+
+ <A NAME="25_08_21at23_18_50_pop_pairw_diff"></A> 
+<data>
+
+
+======================================================================================
+== Comparisons of pairs of population samples
+======================================================================================
+
+List of labels for population samples used below:
+-------------------------------------------------
+</data> <pairDistPopLabels time="25/08/21 at 23:18:50">
+
+Label  	Population name
+-----  	---------------
+  1:	Morocco_Casablanca_Arab_ID412
+  2:	Spain_Barcelona_ID189
+  3:	Spain_Biscay_ID190
+  4:	Spain_Seville_ID192
+  5:	Spain_Bilbao_ID193
+  6:	Spain_Extremadura_ID194
+  7:	Spain_Madrid_ID195
+  8:	Spain_Seville_ID424
+  9:	Spain_Alava_ID425
+  10:	Huelva-Spain
+</pairDistPopLabels> <data>
+
+
+------------------------
+Population pairwise FSTs
+------------------------
+
+</data> <PairFstMat time="25/08/21 at 23:18:50">
+
+Computing conventional F-Statistics from haplotype frequencies
+                     1         2         3         4         5         6         7         8         9        10
+           1   0.00000
+           2  -0.00133   0.00000
+           3  -0.00278  -0.00216   0.00000
+           4  -0.00248  -0.00163  -0.00321   0.00000
+           5  -0.00118   0.00082  -0.00292  -0.00130   0.00000
+           6  -0.00060  -0.00059  -0.00098  -0.00123  -0.00145   0.00000
+           7  -0.00002   0.00177  -0.00116  -0.00015   0.00191   0.00416   0.00000
+           8  -0.00047   0.00870   0.00304   0.00386   0.00432   0.00938   0.00267   0.00000
+           9   0.00745   0.01399   0.00970   0.01032   0.01456   0.02035   0.00519  -0.00266   0.00000
+          10  -0.00352  -0.00362  -0.00578  -0.00379  -0.00330  -0.00395   0.00137   0.00474   0.01323   0.00000
+</PairFstMat> <data>
+
+
+
+------------
+FST P values
+------------
+
+Number of permutations : 12
+
+</data> <PairFstPvalMat time="25/08/21 at 23:18:50">
+
+                       1                 2                 3                 4                 5                 6                 7                 8                 9                10
+           1           *
+           2   0.46154+-0.1469           *
+           3   0.69231+-0.1500   0.69231+-0.1500           *
+           4   0.92308+-0.0544   0.84615+-0.0971   0.92308+-0.0544           *
+           5   0.46154+-0.0272   0.07692+-0.0835   0.76923+-0.0949   0.84615+-0.0971           *
+           6   0.38462+-0.0864   0.46154+-0.1469   0.46154+-0.1469   0.46154+-0.0272   0.53846+-0.0892           *
+           7   0.38462+-0.1682   0.07692+-0.0835   0.46154+-0.1469   0.38462+-0.2216   0.15385+-0.0838   0.00000+-0.0000           *
+           8   0.53846+-0.0892   0.00000+-0.0000   0.46154+-0.2515   0.15385+-0.0838   0.15385+-0.1669   0.00000+-0.0000   0.30769+-0.1676           *
+           9   0.15385+-0.0838   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.61538+-0.1706           *
+          10   0.61538+-0.0909   0.84615+-0.0971   0.84615+-0.0971   0.84615+-0.0971   0.84615+-0.0971   0.76923+-0.0949   0.38462+-0.0864   0.30769+-0.0853   0.00000+-0.0000           *
+</PairFstPvalMat> <data>
+
+
+
+------------
+Matrix of significant Fst P values
+Significance Level=0.0500
+------------
+
+Number of permutations : 12
+
+                     1         2         3         4         5         6         7         8         9        10
+           1                   -         -         -         -         -         -         -         -         -
+           2         -                   -         -         -         -         -         +         +         -
+           3         -         -                   -         -         -         -         -         +         -
+           4         -         -         -                   -         -         -         -         +         -
+           5         -         -         -         -                   -         -         -         +         -
+           6         -         -         -         -         -                   +         +         +         -
+           7         -         -         -         -         -         +                   -         +         -
+           8         -         +         -         -         -         +         -                   -         -
+           9         -         +         +         +         +         +         +         -                   +
+          10         -         -         -         -         -         -         -         -         +          
+
+---------------------------------------------------
+Matrix of coancestry coefficients as t/M=-ln(1-FST)
+(M=N for haploid data, M=2N for diploid data)
+---------------------------------------------------
+
+Reference: </data>
+<Reference>Reynolds, J., Weir, B.S., and Cockerham, C.C. 1983.</Reference>
+<data>
+</data> <coancestryCoefficients time="25/08/21 at 23:18:50">
+
+                     1         2         3         4         5         6         7         8         9        10
+           1  -0.00000
+           2         0  -0.00000
+           3         0         0  -0.00000
+           4         0         0         0  -0.00000
+           5         0   0.00082         0         0  -0.00000
+           6         0         0         0         0         0  -0.00000
+           7         0   0.00177         0         0   0.00191   0.00417  -0.00000
+           8         0   0.00874   0.00304   0.00386   0.00433   0.00942   0.00268  -0.00000
+           9   0.00748   0.01409   0.00975   0.01038   0.01467   0.02056   0.00521         0  -0.00000
+          10         0         0         0         0         0         0   0.00137   0.00475   0.01332  -0.00000
+</coancestryCoefficients> <data>
+
+
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (25/08/21 at 23:18:50))
+Total computing time for this run : 0h 0m 0s 3 ms
+////////////////////////////////////////////////////////////////////
+
+
+</data>
+
+</Arlequin>
+

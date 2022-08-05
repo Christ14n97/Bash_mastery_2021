@@ -1,0 +1,54 @@
+[Profile]
+
+Title="All samples at Gibraltar for locus D19S433"
+NbSamples=2
+DataType=FREQUENCY
+GenotypicData=0
+Frequency=REL
+
+
+[Data]
+
+
+[[Samples]]
+
+
+SampleName="Spain_Extremadura_ID194"
+SampleSize=242
+#Reference: Garcia-Hirschfeld et al. (2003) International Congress Series 1239:165-169
+#Region: Extremadura
+#Country: Spain
+SampleData={
+	12	0.1074
+	12.2	0.0041
+	13	0.2975
+	13.2	0.0083
+	14	0.3223
+	14.2	0.0248
+	15	0.1198
+	15.2	0.0537
+	16	0.0372
+	16.2	0.0207
+	17	0.0041
+}
+
+SampleName="Spain_Madrid_ID195"
+SampleSize=684
+#Reference: Camacho et al. (2007) Forensic Sci Int 173:241-245
+#Region: Madrid
+#Country: Spain
+SampleData={
+	11	0.006
+	12	0.105
+	13	0.24
+	13.2	0.007
+	14	0.338
+	14.2	0.023
+	15	0.173
+	15.2	0.047
+	16	0.042
+	16.2	0.012
+	17	0.004
+	17.2	0.003
+}
+

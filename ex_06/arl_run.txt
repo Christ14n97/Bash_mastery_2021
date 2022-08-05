@@ -1,0 +1,6 @@
+/home/christian97/Documents/msc_biochemistry/csbr_course/ex_06
+use_interf_settings
+locus_D3S1358.arp
+0
+0
+end

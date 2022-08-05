@@ -1,0 +1,17 @@
+#Mathias Currat and Jose Manuel Nunes - Computer skills for biological research 2021
+#script for ex05 of day 2
+#Assume that the file 1/locus_D3S1358.xml is in the  folder locus_D3S1358.res
+#--------------------------
+
+sed -n "/<coancestryCoefficients/,/<\/coancestryCoefficients>/ p" locus_D3S1358.res/locus_D3S1358.xml | tail -n +4 | head -n -1 > locus_D3S1358.1
+
+cat locus_D3S1358.1 | tr -s " " | cut -d " " --complement -f 1,2 > locus_D3S1358.dist
+
+sed -n "/Matrix of significant Fst P values/,/---------------------------------------------------/ p" locus_D3S1358.res/locus_D3S1358.xml | tail -n +8 | head -n -2 > locus_D3S1358.2
+
+cat locus_D3S1358.2 | tr -s " " | cut -d " " --complement -f 1,2 > locus_D3S1358.sign
+
+sed -n "/<pairDistPopLabels/,/<\/pairDistPopLabels>/ p" locus_D3S1358.res/locus_D3S1358.xml | tail -n +5 | head -n -1 > locus_D3S1358.lab
+
+rm locus_D3S1358.1
+rm locus_D3S1358.2

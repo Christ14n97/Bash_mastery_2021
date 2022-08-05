@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="file:////tmp/peralta_Mon06Sep2021074346PMCEST_CSF1PO/ArlequinStyleSheet.xsl"?>
+<!--Arlequin results file-->
+
+<Arlequin>
+
+<data>
+
+
+</data>
+
+<header>
+Arlequin results
+</header>
+<data>
+
+</data>
+
+ <A NAME="06_09_21at19_43_46"></A> 
+<data>
+
+</data> <run time="06/09/21 at 19:43:46">
+
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (06/09/21 at 19:43:46)
+////////////////////////////////////////////////////////////////////
+
+</run> <data>
+ #[WARNING # 1] : Sum of elements should be equal to 1
+ #[WARNING # 2] : Sum of elements should be equal to 1
+ #[WARNING # 3] : Sum of elements should be equal to 1
+ #[WARNING # 4] : Sum of elements should be equal to 1
+</data>
+
+ <A NAME="06_09_21at19_43_46_run_information"></A> 
+<data>
+
+
+Project information:
+--------------------
+	NbSamples      =  19
+	DataType       =  FREQUENCY
+	GenotypicData  =  0
+
+</data> <title time="06/09/21 at 19:43:46">
+
+==============================
+Settings used for Calculations
+==============================
+
+</title> <data>
+
+ General settings:
+ -----------------
+        Deletion Weight                = 1
+        Transition Weight Weight       = 1
+        Tranversion Weight Weight      = 1
+        Epsilon Value                  = 1e-07
+        Significant digits for output  = 5
+        Use original haplotype definition
+        Alllowed level of missing data = 0.05
+
+ Active Tasks:
+ -------------
+
+    Analysis of Molecular Variance:
+    -------------------------------
+        No. of Permutations = 1000
+
+       Distance matrix:
+            Compute F-statistics on haplotype frequencies only
+
+</data>
+
+ <A NAME="06_09_21at19_43_46_pop_gen_struct"></A> 
+<data>
+
+===============================================================================
+== GENETIC STRUCTURE ANALYSIS
+===============================================================================
+
+</data>
+
+ <A NAME="06_09_21at19_43_46_pop_amova"></A> 
+<data>
+
+
+=================================================================
+  AMOVA ANALYSIS
+=================================================================
+
+
+---------------------------
+Genetic structure to test :
+---------------------------
+
+No. of Groups = 2
+
+
+	[[Structure]]
+
+		StructureName = "Two groups of populations, one with Africans and one with Europeans"
+		NbGroups = 2
+	#Group1
+		Group={
+		"Algeria_Ghardaia_Berber_ID32"
+		"Egyptian_Berbers_from_Siwa"
+		"Egyptian_Copts_from_Adaima"
+		"Egyptian_Muslims_from_Adaima"
+		"Moroccan_Berbers_from_Asni"
+		"Moroccan_Berbers_from_Bouhria"
+		"Morocco_Casablanca_Arab_ID30"
+		"Morocco_Agadir_Berber_ID34"
+		"Morocco_Casablanca_Berber_ID35"
+		"Morocco_Casablanca_Arab_ID412"
+		}
+
+	#Group2
+		Group={
+		"Huelva-Spain"
+		"Spain_Barcelona_ID189"
+		"Spain_Biscay_ID190"
+		"Spain_Seville_ID192"
+		"Spain_Bilbao_ID193"
+		"Spain_Extremadura_ID194"
+		"Spain_Madrid_ID195"
+		"Spain_Seville_ID424"
+		"Spain_Alava_ID425"
+		}
+
+---------------------------
+
+
+Computing conventional F-Statistics from haplotype frequencies
+
+--------------------------
+AMOVA design and results :
+--------------------------
+
+</data>
+<Reference>Weir, B.S. and Cockerham, C.C. 1984.</Reference>
+<Reference>Excoffier, L., Smouse, P., and Quattro, J. 1992.</Reference>
+<Reference>Weir, B. S., 1996.</Reference>
+<data>
+----------------------------------------------------------------------
+ Source of                  Sum of      Variance         Percentage
+ variation      d.f.        squares     components       of variation
+----------------------------------------------------------------------
+ Among
+ groups           1          1.301        0.00049 Va             0.13
+
+ Among
+ populations
+ within
+ groups          17          8.548        0.00070 Vb             0.19
+
+ Within
+ populations   3955       1432.655        0.36224 Vc            99.67
+----------------------------------------------------------------------
+ Total         3973       1442.505        0.36342
+----------------------------------------------------------------------
+ Fixation Indices
+      FSC :      0.00192
+      FST :      0.00326
+      FCT :      0.00134
+----------------------------------------------------------------------
+
+Significance tests (1023 permutations)
+------------------
+
+Vc and FST : P(rand. value &lt; obs. value)  =  0.00782
+             P(rand. value = obs. value)  =  0.00000
+                                  P-value =  0.00782+-0.00242
+
+Vb and FSC : P(rand. value > obs. value)  =  0.04790
+             P(rand. value = obs. value)  =  0.00000
+                                  P-value =  0.04790+-0.00767
+
+Va and FCT : P(rand. value > obs. value)  =  0.01662
+             P(rand. value = obs. value)  =  0.00000
+                                  P-value =  0.01662+-0.00393
+
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (06/09/21 at 19:43:46))
+Total computing time for this run : 0h 0m 0s 320 ms
+////////////////////////////////////////////////////////////////////
+
+
+</data>
+
+</Arlequin>
+

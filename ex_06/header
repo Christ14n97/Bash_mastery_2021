@@ -1,0 +1,8 @@
+[Profile] 
+	Title=All samples at Gibraltar for locus D3S1258 
+	NbSamples=21 
+	DataType=FREQUENCY 
+	GenotypicData=0 
+	Frequency=REL 
+[Data] 
+[[Samples]]

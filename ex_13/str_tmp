@@ -1,0 +1,27 @@
+[[structure]]
+
+StructureName = "Two groups of populations, one with Africans and one with Europeans"
+NbGroups = 2
+Group = {
+"Algeria_Ghardaia_Berber_ID32"
+"Egyptian_Berbers_from_Siwa"
+"Egyptian_Copts_from_Adaima"
+"Egyptian_Muslims_from_Adaima"
+"Moroccan_Berbers_from_Asni"
+"Moroccan_Berbers_from_Bouhria"
+"Morocco_Casablanca_Arab_ID30"
+"Morocco_Agadir_Berber_ID34"
+"Morocco_Casablanca_Berber_ID35"
+"Morocco_Casablanca_Arab_ID412"
+}
+Group = {
+"Huelva-Spain"
+"Spain_Barcelona_ID189"
+"Spain_Biscay_ID190"
+"Spain_Seville_ID192"
+"Spain_Bilbao_ID193"
+"Spain_Extremadura_ID194"
+"Spain_Madrid_ID195"
+"Spain_Seville_ID424"
+"Spain_Alava_ID425"
+}

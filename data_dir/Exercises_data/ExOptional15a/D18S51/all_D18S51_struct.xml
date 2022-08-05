@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="file:////var/tmp/csbr12/D18S51/ArlequinStyleSheet.xsl"?>
+<!--Arlequin results file-->
+
+<Arlequin>
+
+<data>
+
+
+</data>
+
+<header>
+Arlequin results
+</header>
+<data>
+
+</data>
+
+ <A NAME="12_10_12at17_46_25"></A> 
+<data>
+
+</data> <run time="12/10/12 at 17:46:25">
+
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (12/10/12 at 17:46:25)
+////////////////////////////////////////////////////////////////////
+
+</run> <data>
+ #[WARNING # 1] : Sum of elements should be equal to 1
+ #[WARNING # 2] : Sum of elements should be equal to 1
+ #[WARNING # 3] : Sum of elements should be equal to 1
+ #[WARNING # 4] : Sum of elements should be equal to 1
+ #[WARNING # 5] : Sum of elements should be equal to 1
+</data>
+
+ <A NAME="12_10_12at17_46_25_run_information"></A> 
+<data>
+
+
+Project information:
+--------------------
+	NbSamples      =  27
+	DataType       =  FREQUENCY
+	GenotypicData  =  0
+
+</data> <title time="12/10/12 at 17:46:25">
+
+==============================
+Settings used for Calculations
+==============================
+
+</title> <data>
+
+ General settings:
+ -----------------
+        Deletion Weight                = 1
+        Transition Weight Weight       = 1
+        Tranversion Weight Weight      = 1
+        Epsilon Value                  = 1e-07
+        Significant digits for output  = 5
+        Use original haplotype definition
+        Alllowed level of missing data = 0.005
+
+ Active Tasks:
+ -------------
+
+    Analysis of Molecular Variance:
+    -------------------------------
+        No. of Permutations = 1000
+
+       Distance matrix:
+            Compute F-statistics on haplotype frequencies only
+
+</data>
+
+ <A NAME="12_10_12at17_46_25_pop_gen_struct"></A> 
+<data>
+
+===============================================================================
+== GENETIC STRUCTURE ANALYSIS
+===============================================================================
+
+</data>
+
+ <A NAME="12_10_12at17_46_25_pop_amova"></A> 
+<data>
+
+
+=================================================================
+  AMOVA ANALYSIS
+=================================================================
+
+
+---------------------------
+Genetic structure to test :
+---------------------------
+
+No. of Groups = 2
+
+
+	[[Structure]]
+
+		StructureName = "Two groups of populations, one with Africans and one with Europeans"
+		NbGroups = 2
+	#Group1
+		Group={
+		"Morocco_Casablanca_Arab_ID412"
+		"Algeria_Ghardaia_Berber_ID32"
+		"Egyptian Berbers from Siwa"
+		"Egyptian Copts from Adaima"
+		"Egyptian Muslims from Adaima"
+		"Moroccan Berbers from Asni"
+		"Moroccan Berbers from Bouhria"
+		"Morocco_Casablanca_Arab_ID30"
+		"Morocco_Agadir_Berber_ID34"
+		"Morocco_Casablanca_Berber_ID35"
+		}
+
+	#Group2
+		Group={
+		"Spain_Bilbao_ID193"
+		"Spain_Extremadura_ID194"
+		"Spain_Madrid_ID195"
+		"Spain_Tenerife_ID197"
+		"Spain_Palma_ID202"
+		"Spain_Palma_Jew_ID203"
+		"Spain_Seville_ID424"
+		"Spain_Alava_ID425"
+		"Huelva-Spain"
+		"Spain_Murcia_ID185"
+		"Spain_Palma_ID186"
+		"Spain_Mao_ID187"
+		"Spain_Valencia_ID188"
+		"Spain_Barcelona_ID189"
+		"Spain_Biscay_ID190"
+		"Spain_Cantabria_ID191"
+		"Spain_Seville_ID192"
+		}
+
+---------------------------
+
+
+Computing conventional F-Statistics from haplotype frequencies
+
+--------------------------
+AMOVA design and results :
+--------------------------
+
+</data>
+<Reference>Weir, B.S. and Cockerham, C.C. 1984.</Reference>
+<Reference>Excoffier, L., Smouse, P., and Quattro, J. 1992.</Reference>
+<Reference>Weir, B. S., 1996.</Reference>
+<data>
+----------------------------------------------------------------------
+ Source of                  Sum of      Variance         Percentage
+ variation      d.f.        squares     components       of variation
+----------------------------------------------------------------------
+ Among
+ groups           1          1.927        0.00067 Va             0.15
+
+ Among
+ populations
+ within
+ groups          25         19.384        0.00154 Vb             0.35
+
+ Within
+ populations   5934       2593.954        0.43713 Vc            99.50
+----------------------------------------------------------------------
+ Total         5960       2615.266        0.43935
+----------------------------------------------------------------------
+ Fixation Indices
+      FSC :      0.00352
+      FST :      0.00504
+      FCT :      0.00153
+----------------------------------------------------------------------
+
+Significance tests (1023 permutations)
+------------------
+
+Vc and FST : P(rand. value &lt; obs. value)  =  0.00000
+             P(rand. value = obs. value)  =  0.00000
+                                  P-value =  0.00000+-0.00000
+
+Vb and FSC : P(rand. value > obs. value)  =  0.00000
+             P(rand. value = obs. value)  =  0.00000
+                                  P-value =  0.00000+-0.00000
+
+Va and FCT : P(rand. value > obs. value)  =  0.00196
+             P(rand. value = obs. value)  =  0.00000
+                                  P-value =  0.00196+-0.00136
+
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (12/10/12 at 17:46:26))
+Total computing time for this run : 0h 0m 0s 510 ms
+////////////////////////////////////////////////////////////////////
+
+
+</data>
+
+</Arlequin>
+

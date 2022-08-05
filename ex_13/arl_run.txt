@@ -1,0 +1,6 @@
+/home/christian97/Documents/msc_biochemistry/csbr_course/ex_13
+use_interf_settings
+locus_CSF1PO_struct.arp
+0
+0
+end

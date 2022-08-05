@@ -1,0 +1,175 @@
+Log file path: locus_D5S818.res/Arlequin_log.txt
+Core Program Directory: /home/christian97/Documents/msc_biochemistry/csbr_course/ex_08/
+Random number generator initialized with lidum=-254659
+Reading project profile section...
+done !
+Opening next project...
+locus_D5S818.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (25/08/21 at 23:18:50)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Reading Samples section ...
+	Reading Algeria_Ghardaia_Berber_ID32 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Arab_ID30 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Agadir_Berber_ID34 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Berber_ID35 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Arab_ID412 ... 
+	done ! (0 ms)
+
+	Reading Spain_Murcia_ID185 ... 
+	done ! (0 ms)
+
+	Reading Spain_Palma_ID186 ... 
+	done ! (0 ms)
+
+	Reading Spain_Mao_ID187 ... 
+	done ! (0 ms)
+
+	Reading Spain_Valencia_ID188 ... 
+	done ! (0 ms)
+
+	Reading Spain_Barcelona_ID189 ... 
+	done ! (0 ms)
+
+	Reading Spain_Biscay_ID190 ... 
+	done ! (0 ms)
+
+	Reading Spain_Cantabria_ID191 ... 
+	done ! (0 ms)
+
+	Reading Spain_Seville_ID192 ... 
+	done ! (0 ms)
+
+	Reading Spain_Bilbao_ID193 ... 
+	done ! (0 ms)
+
+	Reading Spain_Extremadura_ID194 ... 
+   1 #[WARNING # 1] from function "Population::New_read_gametic_data() sum of Relative frequencies=1.008700" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	Reading Spain_Madrid_ID195 ... 
+	done ! (0 ms)
+
+	Reading Spain_Tenerife_ID197 ... 
+	done ! (0 ms)
+
+	Reading Spain_Palma_ID202 ... 
+	done ! (0 ms)
+
+	Reading Spain_Palma_Jew_ID203 ... 
+   2 #[WARNING # 2] from function "Population::New_read_gametic_data() sum of Relative frequencies=1.001000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	Reading Spain_Seville_ID424 ... 
+	done ! (0 ms)
+
+	Reading Spain_Alava_ID425 ... 
+	done ! (0 ms)
+
+	Reading Huelva-Spain ... 
+   3 #[WARNING # 3] from function "Population::New_read_gametic_data() sum of Relative frequencies=0.999000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	done reading Samples section! (0 ms)
+done ! (0 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 0 ms
+  done!
+  check selected settings...
+  done!
+
+Population 'Algeria_Ghardaia_Berber_ID32' : 
+done in 0 ms
+
+Population 'Morocco_Casablanca_Arab_ID30' : 
+done in 0 ms
+
+Population 'Morocco_Agadir_Berber_ID34' : 
+done in 0 ms
+
+Population 'Morocco_Casablanca_Berber_ID35' : 
+done in 0 ms
+
+Population 'Morocco_Casablanca_Arab_ID412' : 
+done in 0 ms
+
+Population 'Spain_Murcia_ID185' : 
+done in 0 ms
+
+Population 'Spain_Palma_ID186' : 
+done in 0 ms
+
+Population 'Spain_Mao_ID187' : 
+done in 0 ms
+
+Population 'Spain_Valencia_ID188' : 
+done in 0 ms
+
+Population 'Spain_Barcelona_ID189' : 
+done in 0 ms
+
+Population 'Spain_Biscay_ID190' : 
+done in 0 ms
+
+Population 'Spain_Cantabria_ID191' : 
+done in 0 ms
+
+Population 'Spain_Seville_ID192' : 
+done in 0 ms
+
+Population 'Spain_Bilbao_ID193' : 
+done in 0 ms
+
+Population 'Spain_Extremadura_ID194' : 
+done in 0 ms
+
+Population 'Spain_Madrid_ID195' : 
+done in 0 ms
+
+Population 'Spain_Tenerife_ID197' : 
+done in 0 ms
+
+Population 'Spain_Palma_ID202' : 
+done in 0 ms
+
+Population 'Spain_Palma_Jew_ID203' : 
+done in 0 ms
+
+Population 'Spain_Seville_ID424' : 
+done in 0 ms
+
+Population 'Spain_Alava_ID425' : 
+done in 0 ms
+
+Population 'Huelva-Spain' : 
+done in 0 ms
+	Computing pairwise Fst's ... 
+
+11 ms to compute pairwise differences and test significance
+
+All FST distances have been computed and written to file
+
+	done ! (12 ms)
+		done ! (12 ms)
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (25/08/21 at 23:18:50))
+Total computing time for this run : 0h 0m 0s 13 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of locus_D5S818.arp

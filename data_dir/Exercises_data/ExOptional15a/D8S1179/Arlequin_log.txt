@@ -1,0 +1,202 @@
+Log file path: all_D8S1179_struct.res/Arlequin_log.txt
+Core Routine Directory: /var/tmp/csbr12/D8S1179/
+Random number generator initialized with lidum=-661670
+Reading project profile section...
+done !
+Opening next project...
+all_D8S1179_struct.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (12/10/12 at 17:46:26)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Reading Samples section ...
+	Reading Algeria_Ghardaia_Berber_ID32 ... 
+	done ! (0 ms)
+
+	Reading Egyptian Berbers from Siwa ... 
+	done ! (0 ms)
+
+	Reading Egyptian Copts from Adaima ... 
+	done ! (0 ms)
+
+	Reading Egyptian Muslims from Adaima ... 
+	done ! (0 ms)
+
+	Reading Huelva-Spain ... 
+	done ! (0 ms)
+
+	Reading Moroccan Berbers from Asni ... 
+	done ! (0 ms)
+
+	Reading Moroccan Berbers from Bouhria ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Arab_ID30 ... 
+   1 #[WARNING # 1] from function "Population::New_read_gametic_data() sum of Relative frequencies=0.999000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	Reading Morocco_Agadir_Berber_ID34 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Berber_ID35 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Arab_ID412 ... 
+	done ! (0 ms)
+
+	Reading Spain_Murcia_Caucasian_ID185 ... 
+   2 #[WARNING # 2] from function "Population::New_read_gametic_data() sum of Relative frequencies=0.999000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	Reading Spain_Palma_Caucasian_ID186 ... 
+	done ! (0 ms)
+
+	Reading Spain_Mao_Caucasian_ID187 ... 
+	done ! (0 ms)
+
+	Reading Spain_Valencia_Caucasian_ID188 ... 
+	done ! (0 ms)
+
+	Reading Spain_Barcelona_Caucasian_ID189 ... 
+	done ! (0 ms)
+
+	Reading Spain_Biscay_Caucasian_ID190 ... 
+	done ! (0 ms)
+
+	Reading Spain_Cantabria_Caucasian_ID191 ... 
+   3 #[WARNING # 3] from function "Population::New_read_gametic_data() sum of Relative frequencies=1.001000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	Reading Spain_Seville_Caucasian_ID192 ... 
+	done ! (0 ms)
+
+	Reading Spain_Bilbao_Caucasian_ID193 ... 
+	done ! (0 ms)
+
+	Reading Spain_Extremadura_Caucasian_ID194 ... 
+	done ! (0 ms)
+
+	Reading Spain_Madrid_Caucasian_ID195 ... 
+	done ! (0 ms)
+
+	Reading Spain_Tenerife_Caucasian_ID197 ... 
+	done ! (0 ms)
+
+	Reading Spain_Palma_Caucasian_ID202 ... 
+   4 #[WARNING # 4] from function "Population::New_read_gametic_data() sum of Relative frequencies=1.001000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	Reading Spain_Palma_Jew_ID203 ... 
+	done ! (0 ms)
+
+	Reading Spain_Seville_Caucasian_ID424 ... 
+	done ! (0 ms)
+
+	Reading Spain_Alava_Caucasian_ID425 ... 
+	done ! (0 ms)
+
+	done reading Samples section! (0 ms)
+	Reading genetic structure ...
+	done reading genetic structure! (0 ms)
+done ! (0 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 0 ms
+  done!
+  check selected settings...
+  done!
+
+Population 'Algeria_Ghardaia_Berber_ID32' : 
+done in 0 ms
+
+Population 'Egyptian Berbers from Siwa' : 
+done in 0 ms
+
+Population 'Egyptian Copts from Adaima' : 
+done in 0 ms
+
+Population 'Egyptian Muslims from Adaima' : 
+done in 0 ms
+
+Population 'Huelva-Spain' : 
+done in 0 ms
+
+Population 'Moroccan Berbers from Asni' : 
+done in 0 ms
+
+Population 'Moroccan Berbers from Bouhria' : 
+done in 0 ms
+
+Population 'Morocco_Casablanca_Arab_ID30' : 
+done in 0 ms
+
+Population 'Morocco_Agadir_Berber_ID34' : 
+done in 0 ms
+
+Population 'Morocco_Casablanca_Berber_ID35' : 
+done in 0 ms
+
+Population 'Morocco_Casablanca_Arab_ID412' : 
+done in 0 ms
+
+Population 'Spain_Murcia_Caucasian_ID185' : 
+done in 0 ms
+
+Population 'Spain_Palma_Caucasian_ID186' : 
+done in 0 ms
+
+Population 'Spain_Mao_Caucasian_ID187' : 
+done in 0 ms
+
+Population 'Spain_Valencia_Caucasian_ID188' : 
+done in 0 ms
+
+Population 'Spain_Barcelona_Caucasian_ID189' : 
+done in 0 ms
+
+Population 'Spain_Biscay_Caucasian_ID190' : 
+done in 0 ms
+
+Population 'Spain_Cantabria_Caucasian_ID191' : 
+done in 0 ms
+
+Population 'Spain_Seville_Caucasian_ID192' : 
+done in 0 ms
+
+Population 'Spain_Bilbao_Caucasian_ID193' : 
+done in 0 ms
+
+Population 'Spain_Extremadura_Caucasian_ID194' : 
+done in 0 ms
+
+Population 'Spain_Madrid_Caucasian_ID195' : 
+done in 0 ms
+
+Population 'Spain_Tenerife_Caucasian_ID197' : 
+done in 0 ms
+
+Population 'Spain_Palma_Caucasian_ID202' : 
+done in 0 ms
+
+Population 'Spain_Palma_Jew_ID203' : 
+done in 0 ms
+
+Population 'Spain_Seville_Caucasian_ID424' : 
+done in 0 ms
+
+Population 'Spain_Alava_Caucasian_ID425' : 
+done in 0 ms
+		Computing F statistics ...
+		done ! (490 ms)
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (12/10/12 at 17:46:26))
+Total computing time for this run : 0h 0m 0s 490 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of all_D8S1179_struct.arp

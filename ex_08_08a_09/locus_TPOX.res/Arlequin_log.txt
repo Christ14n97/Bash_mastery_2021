@@ -1,0 +1,62 @@
+Log file path: locus_TPOX.res/Arlequin_log.txt
+Core Program Directory: /home/christian97/Documents/msc_biochemistry/csbr_course/ex_08/
+Random number generator initialized with lidum=-1718126
+Reading project profile section...
+done !
+Opening next project...
+locus_TPOX.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (25/08/21 at 23:18:51)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Reading Samples section ...
+	Reading Algeria_Ghardaia_Berber_ID32 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Arab_ID30 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Agadir_Berber_ID34 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Berber_ID35 ... 
+	done ! (0 ms)
+
+	Reading Morocco_Casablanca_Arab_ID412 ... 
+	done ! (0 ms)
+
+	Reading Spain_Barcelona_ID189 ... 
+	done ! (0 ms)
+
+	Reading Spain_Biscay_ID190 ... 
+	done ! (0 ms)
+
+	Reading Spain_Seville_ID192 ... 
+	done ! (0 ms)
+
+	Reading Spain_Bilbao_ID193 ... 
+	done ! (0 ms)
+
+	Reading Spain_Extremadura_ID194 ... 
+	done ! (0 ms)
+
+	Reading Spain_Madrid_ID195 ... 
+	done ! (0 ms)
+
+	Reading Spain_Seville_ID424 ... 
+	done ! (0 ms)
+
+	Reading Spain_Alava_ID425 ... 
+	done ! (0 ms)
+
+	Reading Huelva-Spain ... 
+	Problem reading haplotype frequency ("TPOX") on line 144 . Aborting reading file
+   1 #[ERROR # 1] from function "Population::New_read_gametic_data()" : unable to read haplotype frequency
+   2 #[ERROR # 2] from function "Samples::NewRead()" : unable to read sample data
+	Problems in reading Samples section... aborting reading  project file.
+
+Error opening project... locus_TPOX.res/locus_TPOX.arp
+Error during run of locus_TPOX.arp

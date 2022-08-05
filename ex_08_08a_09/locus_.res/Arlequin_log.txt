@@ -1,0 +1,34 @@
+Log file path: locus_.res/Arlequin_log.txt
+Core Program Directory: /home/christian97/Documents/msc_biochemistry/csbr_course/ex_08/
+Random number generator initialized with lidum=-432835
+Reading project profile section...
+done !
+Opening next project...
+locus_.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (25/08/21 at 23:06:05)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	[PROFILE] section not defined. Check your project file.
+
+	Keyword "NbSamples" not found. Undefined number of samples to read. Check your project file.
+
+	Keyword "DataType" not found. Undefined data type. Check your project file.
+
+	Keyword "GenotypicData" not found. Undefined data type. Check your project file.
+
+	Keyword "LocusSeparator" not found. Check your project file.
+
+	Keyword "MissingData" not found. Using default value ("?"). Check your project file.
+
+	[DATA] section not defined. Check your project file.
+
+	Section "Samples" not found in project. At least one sample needs to be defined. Check your project file.
+
+done ! (0 ms)
+   1 #[ERROR # 1] from function "Project::newOpen()" : missing required keywords definition in project file
+Error opening project... locus_.res/locus_.arp
+Error during run of locus_.arp

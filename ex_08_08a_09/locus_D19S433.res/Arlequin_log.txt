@@ -1,0 +1,59 @@
+Log file path: locus_D19S433.res/Arlequin_log.txt
+Core Program Directory: /home/christian97/Documents/msc_biochemistry/csbr_course/ex_08/
+Random number generator initialized with lidum=-1475669
+Reading project profile section...
+done !
+Opening next project...
+locus_D19S433.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (25/08/21 at 23:18:51)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Reading Samples section ...
+	Reading Spain_Extremadura_ID194 ... 
+	done ! (0 ms)
+
+	Reading Spain_Madrid_ID195 ... 
+	done ! (0 ms)
+
+	Reading Huelva-Spain ... 
+   1 #[WARNING # 1] from function "Population::New_read_gametic_data() sum of Relative frequencies=0.578000" : Sum of elements should be equal to 1
+	done ! (0 ms)
+
+	done reading Samples section! (0 ms)
+done ! (0 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 0 ms
+  done!
+  check selected settings...
+  done!
+
+Population 'Spain_Extremadura_ID194' : 
+done in 0 ms
+
+Population 'Spain_Madrid_ID195' : 
+done in 0 ms
+
+Population 'Huelva-Spain' : 
+done in 0 ms
+	Computing pairwise Fst's ... 
+
+0 ms to compute pairwise differences and test significance
+
+All FST distances have been computed and written to file
+
+	done ! (0 ms)
+		done ! (0 ms)
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (25/08/21 at 23:18:51))
+Total computing time for this run : 0h 0m 0s 0 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of locus_D19S433.arp

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="file:////home/christian97/Documents/msc_biochemistry/csbr_course/ex_08/ArlequinStyleSheet.xsl"?>
+<!--Arlequin results file-->
+
+<Arlequin>
+
+<data>
+
+
+</data>
+
+<header>
+Arlequin results
+</header>
+<data>
+
+</data>
+
+ <A NAME="25_08_21at23_18_51"></A> 
+<data>
+
+</data> <run time="25/08/21 at 23:18:51">
+
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (25/08/21 at 23:18:51)
+////////////////////////////////////////////////////////////////////
+
+</run> <data>
+ #[WARNING # 1] : Sum of elements should be equal to 1
+</data>
+
+ <A NAME="25_08_21at23_18_51_run_information"></A> 
+<data>
+
+
+Project information:
+--------------------
+	NbSamples      =  3
+	DataType       =  FREQUENCY
+	GenotypicData  =  0
+
+</data> <title time="25/08/21 at 23:18:51">
+
+==============================
+Settings used for Calculations
+==============================
+
+</title> <data>
+
+ General settings:
+ -----------------
+        Deletion Weight                = 1
+        Transition Weight Weight       = 1
+        Tranversion Weight Weight      = 1
+        Epsilon Value                  = 1e-07
+        Significant digits for output  = 5
+        Use original haplotype definition
+        Alllowed level of missing data = 0.05
+
+ Active Tasks:
+ -------------
+
+    Population pairwise Fst values:
+    -------------------------------
+        Compute coancestry coefficients
+        No. of permutations for significance = 10
+        No. of permutations for Mantel test  = 1000
+
+       Distance matrix:
+            Compute F-statistics on haplotype frequencies only
+
+</data>
+
+ <A NAME="25_08_21at23_18_51_pop_gen_struct"></A> 
+<data>
+
+===============================================================================
+== GENETIC STRUCTURE ANALYSIS
+===============================================================================
+
+</data>
+
+ <A NAME="25_08_21at23_18_51_pop_pairw_diff"></A> 
+<data>
+
+
+======================================================================================
+== Comparisons of pairs of population samples
+======================================================================================
+
+List of labels for population samples used below:
+-------------------------------------------------
+</data> <pairDistPopLabels time="25/08/21 at 23:18:51">
+
+Label  	Population name
+-----  	---------------
+  1:	Spain_Extremadura_ID194
+  2:	Spain_Madrid_ID195
+  3:	Huelva-Spain
+</pairDistPopLabels> <data>
+
+
+------------------------
+Population pairwise FSTs
+------------------------
+
+</data> <PairFstMat time="25/08/21 at 23:18:51">
+
+Computing conventional F-Statistics from haplotype frequencies
+                     1         2         3
+           1   0.00000
+           2   0.00026   0.00000
+           3   0.07766   0.07269   0.00000
+</PairFstMat> <data>
+
+
+
+------------
+FST P values
+------------
+
+Number of permutations : 12
+
+</data> <PairFstPvalMat time="25/08/21 at 23:18:51">
+
+                       1                 2                 3
+           1           *
+           2   0.07692+-0.0835           *
+           3   0.00000+-0.0000   0.00000+-0.0000           *
+</PairFstPvalMat> <data>
+
+
+
+------------
+Matrix of significant Fst P values
+Significance Level=0.0500
+------------
+
+Number of permutations : 12
+
+                     1         2         3
+           1                   -         +
+           2         -                   +
+           3         +         +          
+
+---------------------------------------------------
+Matrix of coancestry coefficients as t/M=-ln(1-FST)
+(M=N for haploid data, M=2N for diploid data)
+---------------------------------------------------
+
+Reference: </data>
+<Reference>Reynolds, J., Weir, B.S., and Cockerham, C.C. 1983.</Reference>
+<data>
+</data> <coancestryCoefficients time="25/08/21 at 23:18:51">
+
+                     1         2         3
+           1  -0.00000
+           2   0.00026  -0.00000
+           3   0.08084   0.07547  -0.00000
+</coancestryCoefficients> <data>
+
+
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (25/08/21 at 23:18:51))
+Total computing time for this run : 0h 0m 0s 1 ms
+////////////////////////////////////////////////////////////////////
+
+
+</data>
+
+</Arlequin>
+
