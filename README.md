@@ -2,6 +2,8 @@
 
 Computer skills for biological research course aims at bringing practical lessons to attendants so they can use comfortably GNU/Linux workstation environment, work with shells and write shell scripts, manipulate data files, convert file formats as well as automatize and repeat file manipulations.
 
+For a descriptiono on what the exercises are about, please refer to [course instructions](https://github.com/Christ14n97/Bash_mastery_2021/blob/master/CSBR_instructions.pdf).
+
 Author: 
 
 [Christian Peralta Viteri](https://www.linkedin.com/in/christian-peralta-viteri-71a81b16b/)
